@@ -6,7 +6,7 @@
         <h1 class="big-heading">我們是...</h1>
         <h2 class="medium-heading">Google 學生開發者社群<br />國立臺北大學</h2>
         <p>
-          成立於 2020 年，由 Google 支持的學生社群計畫，<br />
+          成立於 20 年，由 Google 支持的學生社群計畫，<br />
           旨在能鼓勵學生們學習與應用 Google 技術，<br />
           並提供成員們資源協助及與專家互動交流的機會。<br />
           我們致力於打造一個文組人入門的科技社群，<br />
