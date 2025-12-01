@@ -120,6 +120,22 @@
 </template>
 
 <script setup lang="ts">
+  /*===== SEO Optimization - Use Nuxt's composable for Head Management =====*/
+useHead({
+  title: 'Google 學生開發者社群 (GDSC) 國立臺北大學 | 文組友善技術交流平台',
+  meta: [
+    {
+      name: 'description',
+      content: '成立於 2020 年，Google 學生開發者社群 國立臺北大學 (GDSC NTPU) 旨在鼓勵學生學習與應用 Google 技術，提供良好的文組入門科技學習環境。',
+    },
+    // 您可以根據需要添加其他 meta 標籤，例如 keywords 或 open graph
+    {
+      name: 'keywords',
+      content: 'Google 學生開發者社群, 國立臺北大學, GDSC, GDSC NTPU, 程式設計, 專案實作, 技術交流',
+    },
+  ],
+});
+/*======================================================================*/
 /*===== Get newest articles =====*/
 interface Article {
   id: string;
